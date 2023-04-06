@@ -36,6 +36,6 @@ class User private constructor(builder: Builder) {
 
 fun main() {
     val user: User =
-        User.Builder().setUserName("Nithinjith").setUserAge(34).setUserGender("Male").setUserBio("Good User").build()
+        User.Builder().setUserName("John Samuel").setUserAge(34).setUserGender("Male").setUserBio("Good User").build()
     println(user.userName)
 }
